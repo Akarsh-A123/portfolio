@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image{
+            height:45%;
+            width:90%;
+            position: absolute;
+            right:30px;
+            border:2px solid black;
+        }
+        .img2{
+            position:absolute;
+            right:20%;
+            bottom:0px;
+            height:50%;
+            transform: translate(50%);
+            transition:bottom 1s,right 1s;
+        }
+        .image:hover #shape{
+            bottom:10%;
+        }
+        .image:hover #girl{
+            right:22%;
+        }
+    </style>
+</head>
+<body>
+    <div class="image">
+        <img id="shape" class="img2" src="./abstract-removebg-preview.png">
+        <img id="girl" class="img2" src="./standingwomen-removebg-preview.png">
+    </div>
+</body>
+</html>
